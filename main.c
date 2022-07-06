@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // C STRUCTURES
-    
+void print_something();
 struct MyStructure {
   int myNumber;           
   char myLetter; 
@@ -65,9 +65,9 @@ int main() {
   int x = 50, y=100,z=150;
   // Assign similar value to many variables
   
-  int x,y,z;
+  int g,h,t;
   
-  x=y=z=500;
+  g=h=t=500;
   
   // Data types 
   
@@ -138,17 +138,18 @@ int main() {
     // Conditionals 
     
     if(2 < 3){
-    	return true;
+    	return 1;
   	}else if(3>1){
     	return 3;
     }else{
-    	return false;
+    	return 2;
         
     }
     
     //SHORT HAND 
     
-    (2<3)? return true : return false;
+    // int o;
+    // 2<3 ?  o=1 : o=0;
     
     
     //SWITCH AND CASE 
@@ -206,9 +207,9 @@ int main() {
     int j;
     
     for(j = 0; j<5; j++){
-    	printf("%d\n" j);
+    	printf("%d\n" ,j);
         
-        (j==4)? break : continue;
+        // (j==4) ? break : continue;
     }
     
     
@@ -238,7 +239,7 @@ int main() {
     
     // METHOD II 
     
-    char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 		'd', '!', '\0'};
+    char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
 	printf("%s", greetings);
 	
     // \0 is the null termination character to tell C the string has ended 
@@ -317,18 +318,19 @@ int main() {
     // C structures ... 
     // create variable 
     
-    struct myStructure s;
+    // struct myStructure r;
+    
     
     // ACESS MEMBERS
-    s.myNumber = 18;
+  // r.myNumber = 18;
     
     // Using strings in C structures 
     
-    strcpy(s.weirdName,"Some weird name");
+    // strcpy(r.weirdName,"Some weird name");
     
     // SHORT HAND SYNTAX 
     
-    struct myStructure s1 = {13, 'B', "Some text"};
+    // struct myStructure s1 = {13, 'B', "Some text"};
     
   return 0;
 }	
