@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 // C STRUCTURES
 void print_something();
 struct MyStructure {
