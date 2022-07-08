@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 // C STRUCTURES
+
+// function definition
 void print_something();
 struct MyStructure {
   int myNumber;           
