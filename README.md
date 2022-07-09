@@ -1,2 +1,2 @@
 # C-Learning
-Learning Basics of the C programming language
+Learning Basics of C programming language
