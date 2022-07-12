@@ -7,7 +7,7 @@ void print_something();
 struct MyStructure {
   int myNumber;           
   char myLetter; 
-  char weirdName[17];
+  char weirdName[15];
 };
 int main() {
 //Output statements
