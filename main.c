@@ -2,7 +2,7 @@
 #include <math.h>
 // C STRUCTURES
 
-// function definition
+// function declaration
 void print_something();
 struct MyStructure {
   int myNumber;           
@@ -341,6 +341,7 @@ int main() {
 // JUST LIKE IN C++ FUNCTIONS CAN BE DECLARED THEN DEFINED
 // Void functions just like in C++ do not have a return value
 
+//Definition
 void print_something(){
 	printf("Executed");
 }
@@ -348,7 +349,7 @@ void print_something(){
 // ARGUMENTS 
 
 
-
+// Definition
 void someWeirdFunction(int a, int b , int c , char name[] ,float age){
 	// Some weird code 
 
