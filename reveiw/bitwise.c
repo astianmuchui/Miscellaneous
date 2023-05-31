@@ -12,8 +12,9 @@ int main(void)
     
     /* Bitwise & [AND] */
 
-    unsigned int x = 7; /* 0111 */
-    unsigned int y = 4; /* 0100 */
+    unsigned int x = 7; /* 00111 */
+    unsigned int y = 4; /* 00100 */
+    unsigned int z = 5; /*00101*/
 
     printf("x & y = %d\n", x & y); /* 0100 = 4 */
 
@@ -28,4 +29,11 @@ int main(void)
     /* Bitwise NOT (~) */
 
     printf("~x = %d\n", ~x);
+
+    /* Left shift  << */
+    printf(" 5 << 1 = %d\n", z << 1);
+
+    /* Right shift >> */
+
+    printf("4 >> 1 = %d\n", y >>1);
 }
